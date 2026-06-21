@@ -1,7 +1,7 @@
 Release 5.5-beta2
 -----------------
 
-This BETA release corrects Java 1.8 binary problem introduced in the previous BETA
+This BETA release corrects Java 8 binary problem introduced in the previous BETA
 release. The previous version has been compiled against Java 17 APIs by mistake.
 
 This release also includes all the fixes from the stable 5.4 branch.
@@ -17,7 +17,7 @@ Notable changes and features included in the 5.5 series:
 
 * Cap pending HTTP/2 request commands per connection.
 
-* HPACK RFC 7540 / RFC 7541 / HTTP/2 RFC 9113 conformance improvements.
+* HPACK RFC 7540, RFC 7541, and HTTP/2 RFC 9113 conformance improvements.
 
 * Building HttpCore with Maven now requires Java 17 or newer. Published
   artifacts remain compatible with Java 8.
